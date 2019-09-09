@@ -29,3 +29,8 @@
 #     self.total = self.total - self.last_transaction
 #   end
 # end
+
+class CashRegister
+
+  def initialize(total = 0)
+    @total = total
